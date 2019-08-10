@@ -7,7 +7,6 @@ git push origin master
 
 git pull origin master
 ```
-
 ## trabajo con ramas
 ```sh
 git branch nombre_rama # crear rama
@@ -18,3 +17,10 @@ git add .
 git commit  -m "el mensaje"
 git push origin nombre_rama
 ```
+
+## modificando descripcion del commit
+```sh
+git commit --amend
+```
+"pilas por que esto cambia el Id del commit"
+
